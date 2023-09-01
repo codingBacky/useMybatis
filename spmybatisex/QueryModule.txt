@@ -1,0 +1,3 @@
+select * from members //id, method : getAllMember()
+select * from members where memId = #{memId}  //id, method : getMember(String memId)
+update members set mempwd = #{mempwd} where memId = #{memId}//id, method : updateMember(MemberVO vo)
